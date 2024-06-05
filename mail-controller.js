@@ -12,7 +12,7 @@ exports.sendMail = async (req, res, next) => {
   const { name, phone, email, address, description } = req.body;
   transporter.sendMail({
     from: "sixlarovtahir13@gmail.com",
-    to: "office@spectrumlawfirm.com",
+    to: "sixlarovtahir13@gmail.com",
     subject: "New message",
     html: ` <div
     style="
