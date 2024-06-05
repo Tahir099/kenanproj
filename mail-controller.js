@@ -16,9 +16,6 @@ exports.sendMail = async (req, res, next) => {
     subject: "New message",
     html: ` <div
     style="
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       min-height: 240px;
       min-width: 200px;
       max-width: 80%;
